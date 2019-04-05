@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="اطلاعات شخصی" />
+        <!--<item-->
+            <!--android:id="@+id/nav_buy"-->
+            <!--android:icon="@drawable/ic_add_shopping_cart_black_24dp"-->
+            <!--android:title="خرید اعتبار" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_message"-->
+            <!--android:icon="@drawable/ic_email_black_24dp"-->
+            <!--android:title="پیام ها" />-->
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="تماس با ما" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="درباره ما" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="خروج" />
+    </group>
+
+</menu>

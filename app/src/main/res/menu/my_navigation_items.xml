@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/profile"
+            android:title="پروفایل"
+            android:icon="@drawable/ic_empty_face_black_24px" />
+        <item android:id="@+id/games"
+            android:title="بازی"
+            android:icon="@drawable/ic_fill_games_black_24dp" />
+        <item android:id="@+id/results"
+            android:title="نتایج"
+            android:icon="@drawable/ic_empty_flag_black_24px" />
+</menu>

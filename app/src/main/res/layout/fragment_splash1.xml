@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_90"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Splash1Fragment">
+    <ImageView
+        android:id="@+id/icon"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/ic_game_controller2"
+        android:layout_centerInParent="true"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_marginBottom="40dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <com.game.senjad.base.components.IranSansTextView
+        android:id="@+id/text"
+        android:layout_below="@id/icon"
+        android:text="بازی‌های متنوع"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

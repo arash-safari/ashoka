@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "462423979301",
+    "firebase_url": "https://sgame-7124d.firebaseio.com",
+    "project_id": "sgame-7124d",
+    "storage_bucket": "sgame-7124d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462423979301:android:85d3401f84e1b3d7",
+        "android_client_info": {
+          "package_name": "com.game.senjad.sgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462423979301-0mvs7qde1mvlq0ih0m579okg11f3nmi3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "462423979301-0mvs7qde1mvlq0ih0m579okg11f3nmi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC62-h-SYukEKZ-HLl7gwy4soxwRwTv-RY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/material_blue_grey_80"
+    android:layout_height="60dp">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:orientation="horizontal"
+        android:id="@+id/rank"
+        android:layout_alignParentRight="true"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_height="match_parent">
+        <com.game.senjad.base.components.IranSansTextView
+            android:id="@+id/rank_text"
+            android:gravity="center"
+            android:visibility="visible"
+            android:text="رتبه"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/score"
+        android:layout_toLeftOf="@+id/rank"
+        android:layout_height="match_parent">
+        <com.game.senjad.base.components.IranSansTextView
+            android:gravity="right|center_vertical"
+            android:id="@+id/name"
+            android:text="نام کاربر"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/score"
+        android:orientation="horizontal"
+        android:layout_width="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="match_parent">
+        <com.game.senjad.base.components.IranSansTextView
+            android:gravity="center"
+            android:text="امتیاز"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

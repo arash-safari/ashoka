@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:textDirection="rtl"
+    tools:context=".AboutUsActivity">
+    <com.game.senjad.base.components.IranSansTextView
+        android:id="@+id/title"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textColor="@color/black_overlay"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="گروه نرم افزاری آشوکا"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    </com.game.senjad.base.components.IranSansTextView>
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="40dp"
+        android:textSize="14sp"
+        android:text="گروه نرم افزاری آشوکا از افراد متخصص و با تجربه در حوزه تولید و نگهداری نرم افزار تشکیل شده است. بازی‌های سنجاد یکی از محصولات این گروه است.  هدف این گروه کمک به اقشار مختلف جامعه برای شکوفایی و بهره‌برداری حداکثری از استعدادهایشان است. "
+        android:textColor="@color/black_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

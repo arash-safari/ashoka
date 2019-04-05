@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    tools:context=".PersonalActivity">
+    <ImageView
+        android:id="@+id/back_ground_image"
+        android:layout_width="match_parent"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="-50dp"
+        android:id="@+id/personal_image"
+        android:layout_width="100dp"
+        android:scaleType="fitCenter"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <com.game.senjad.base.components.IranSansTextView
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="نام و نام خانوادگی: "
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+        <com.game.senjad.base.components.IranSansTextView
+            android:id="@+id/name_text"
+            android:layout_marginTop="40dp"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:id="@+id/separetor"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/material_blue_grey_90"
+    android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <com.game.senjad.base.components.IranSansTextView
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="پایه تحصیلی: "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    <com.game.senjad.base.components.IranSansTextView
+        android:id="@+id/paye_text"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="پایه تحصیلی: "
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

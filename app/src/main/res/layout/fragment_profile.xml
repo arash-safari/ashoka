@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:background="@color/card_background"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <com.game.senjad.base.components.IranSansTextView
+            android:id="@+id/game_name"
+            android:layout_width="100dp"
+            android:gravity="center_vertical|right"
+            android:paddingRight="4dp"
+            android:text="نام بازی"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:background="@color/material_blue_grey_80"
+            android:layout_height="match_parent" />
+        <com.game.senjad.base.components.IranSansTextView
+            android:id="@+id/my_rank"
+            android:text="رتبه"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:background="@color/material_blue_grey_80"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <com.game.senjad.base.components.IranSansTextView
+            android:id="@+id/my_score"
+            android:text="امتیاز"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:background="@color/material_blue_grey_80"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <com.game.senjad.base.components.IranSansTextView
+            android:id="@+id/best_score"
+            android:text="بهترین امتیاز"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:background="@color/material_blue_grey_80"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recycler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

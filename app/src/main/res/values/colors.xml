@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ee6002</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="material_blue_grey_90">#263238</color>
+    <color name="material_blue_grey_80">#37474F</color>
+</resources>
